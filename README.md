@@ -24,8 +24,28 @@ The DroneSimulationMain.m script runs the MATLAB Scripts for the Tube-Based MPC,
 ## QuadDataProcessing
 The QuadDataProcessing.m script runs the MATLAB Scripts to generate the plots and processed data for the data collected in the DroneSimulationMain.m script. This includes plots of the algorithms following the manuver, position and orientation trajectory, and the values for the deviation from the trajectory.
 ## Current Results
-![Fig8-Nominal](/ProcessedResults/PNG%20Files/Figure8/Figure8_Nominal_Full_Trajectory.png)
+Below we present the results for tracking the figure-8 trajectory in nominal conditions and with a center of mass (COM) shift. More results can be found in the [Processed Results Section](https://github.com/ggowan95/DeepMPC/tree/main/DroneSimulationModels/ProcessedResults).
 ### Fig-8 Nominal
+In the following simulations we have the quadcopter fly a figure-8 manuver for 60 seconds in nominal conditions. As you can see all three MPC architectures are comporable in ability to follow the trajectory.
+<p float="left">
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_Nominal_Full_Trajectory.png" width=40% height=40% />
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_Nominal_Full_Position.png" width=55% height=55% />
+</p>
+<p float="left">
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_Nominal_Full_Orientation.png" width=50% height=50% />
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_Nominal_Full_XYTrajectoryError.png" width=45% height=45% />
+</p>
+
+### Fig-8 COM Shift
+In the following simulations we have the quadcopter fly a figure-8 manuver for 60 seconds with a COM shift after 15 seconds. As you can see all three MPC architectures are comporable in ability to follow the trajectory.
+<p float="left">
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_COMShift_Full_Trajectory.png" width=50% height=50% />
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_COMShift_Full_Position.png" width=45% height=45% />
+</p>
+<p float="left">
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_COMShift_Full_Orientation.png" width=50% height=50% />
+ <img src="https://github.com/ggowan95/DeepMPC/blob/main/DroneSimulationModels/ProcessedResults/PNG%20Files/Figure8/Figure8_COMShift_Full_XYTrajectoryError.png" width=45% height=45% />
+</p>
 
 ## Acknowledgments
 I would like to thank the people at Mathworks for their various toolboxes, the developers of the tbxmanager software, and my colleague Mateus Valverde for all of their efforts in their software development that have enabled the development of the DeepMPC Scripts.

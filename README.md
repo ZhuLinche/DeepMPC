@@ -48,4 +48,4 @@ In the following simulations we have the quadcopter fly a figure-8 manuver for 6
 </p>
 
 ## Acknowledgments
-I would like to thank the people at Mathworks for their various toolboxes, the developers of the tbxmanager software, and my colleague Mateus Valverde for all of their efforts in their software development that have enabled the development of the DeepMPC Scripts.
+I would like to thank my advisor Dr. Grisih Chowdhary for all of his support during the development of this woftware as well as Dr. Prabhat Mishra and Mateus Valverde for their support and input towards the development of this software. I would also like to thank the people at Mathworks for their various toolboxes, and the developers of the tbxmanager software for all of their efforts in their software development that have enabled the development of the DeepMPC Scripts.

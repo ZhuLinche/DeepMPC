@@ -7,7 +7,7 @@
 * [DroneSimulationMain](#DroneSimulationMain)
 * [QuadDataProcessing](#QuadDataProcessing)
 * [Current Results](#Current-Results)
-* [Acknolwedgments](#Ackowledgments)
+* [Acknowledgments](#Acknowledgments)
 
 ## General Info
 The ReadMe will be updated with more information with further development of the DeepMPC software, and when my Thesis has been fully reviewed and submitted.

@@ -1,6 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Creator: Mateus Valverde                        %
-% Version Name: inner_layers                      %                   
+% Version Name: inner_layers                      %    
+% ORCID: https://orcid.org/0000-0001-7900-8061    %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 classdef inner_layers
